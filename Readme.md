@@ -11,55 +11,24 @@
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 
-## 2空格缩进
+## tab缩进
 
-使用2个空格而不是 tab 来进行代码缩进，同时绝对不要混用空格和 tab 。
-
-Sublime Text 2 设置(perfernces > Settings - User)：
-
-```
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true
-```
+使用 tab 来进行代码缩进，同时绝对不要混用空格和 tab 。
 
 ## 换行
 
 使用 UNIX 风格的换行符 (`\n`)，同时在每个文件的结尾添加一个换行符。
 Windows 风格的换行符 (`\r\n`) 是绝对禁止出现在任何项目中的。
 
-Sublime Text 2 设置(perfernces > Settings - User)：
-
-```
-  "default_line_ending": "unix"
-```
-
 ## 去除行末尾的多余空格
 
 就像吃完饭要刷牙一样，在提交 (commit) 代码之前你需要清理掉所有的不必要的空格。
-
-Sublime Text2 设置(perfernces > Settings - User)：
-
-```
-  "trim_trailing_white_space_on_save": true
-```
 
 ## 使用分号
 
 是否使用分号，在社区争论已久。
 isaac 也写过一篇讨论的[文章](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)，
 但是，当可以用廉价的语法来消除一些可能引入的错误的时候，请当一个保守派。
-
-## 每行80个字符
-
-限制你每行代码不超过80个字符。尽管现在的显示器越来越大，但是你的大脑并没有变大，并且你还可以把你的大显示器切分成多屏来显示。
-
-Sublime Text 2 设置(perfernces > Settings - User)：
-
-```
-  "rulers": [80]
-```
-
-多屏：`view > Layout > Columns 2`
 
 ## 使用单引号
 
